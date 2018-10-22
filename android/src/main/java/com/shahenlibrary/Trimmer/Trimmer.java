@@ -498,6 +498,11 @@ public class Trimmer {
     cmd.add("-c:v");
     cmd.add("libx264");
     cmd.add("-b:v");
+    cmd.add("-profile:v");
+    cmd.add("baseline");
+    cmd.add("-level");
+    cmd.add("3.0");
+
     cmd.add(Double.toString(averageBitrate/1000)+"K");
     cmd.add("-bufsize");
     cmd.add(Double.toString(averageBitrate/2000)+"K");
