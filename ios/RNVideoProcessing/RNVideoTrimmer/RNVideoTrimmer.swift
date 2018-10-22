@@ -459,7 +459,7 @@ class RNVideoTrimmer: NSObject {
           AVVideoHeightKey: NSNumber.init(value: height!),
           AVVideoCompressionPropertiesKey: [
               AVVideoAverageBitRateKey: NSNumber.init(value: averageBitrate),
-              AVVideoProfileLevelKey: AVVideoProfileLevelH264HighAutoLevel
+              AVVideoProfileLevelKey: AVVideoProfileLevelH264Baseline30
           ]
       ]
       if !removeAudio {
