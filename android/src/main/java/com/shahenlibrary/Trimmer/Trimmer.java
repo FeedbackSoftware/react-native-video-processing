@@ -497,8 +497,6 @@ public class Trimmer {
     cmd.add(source);
     cmd.add("-c:v");
     cmd.add("libx264");
-    cmd.add("-c:a");
-    cmd.add("copy");
     cmd.add("-profile:v");
     cmd.add("baseline");
     cmd.add("-level");
