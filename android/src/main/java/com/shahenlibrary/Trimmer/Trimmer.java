@@ -501,6 +501,8 @@ public class Trimmer {
     cmd.add("baseline");
     cmd.add("-level");
     cmd.add("3.0");
+    cmd.add("-crf");
+    cmd.add("30");
     cmd.add("-b:v");
 
     cmd.add(Double.toString(averageBitrate/1000)+"K");
